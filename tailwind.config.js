@@ -19,6 +19,9 @@ export default {
       },
       screens: {
       },
+      animation: {
+        'spin-slow': 'spin 90s linear infinite',
+      }
     },
   },
   plugins: [],

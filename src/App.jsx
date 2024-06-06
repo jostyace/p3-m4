@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       
-        <nav className="w-full flex h-24 bg-transparent mt-8 absolute">
+        <nav className="hidden md:flex w-full h-24 bg-transparent mt-8 absolute">
           <div  className="w-5/12 flex items-center"> <img src={logo} alt="" className=" h-12 w-12 mx-14" /><div className="w-full h-[1px]  border-b-[1px] border-white border-opacity-25 -mr-8 z-[1]"></div></div>
           <ul className="flex items-center w-7/12 uppercase bg-opacity-[0.04] backdrop-blur-md font-barlowcondensed text-base font-normal text-white bg-white gap-12 justify-center">
             <li className="h-full">
